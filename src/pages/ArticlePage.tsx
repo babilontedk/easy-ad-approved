@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import BlogSidebar from "@/components/BlogSidebar";
-import AdPlacement from "@/components/AdPlacement";
 import ShareButtons from "@/components/ShareButtons";
 import ArticleCard from "@/components/ArticleCard";
 import { getArticleBySlug, getRelatedArticles } from "@/data/articles";
@@ -48,11 +47,7 @@ const ArticlePage = () => {
 
             <ShareButtons url={url} title={article.title} />
 
-            <AdPlacement type="in-article" />
-
             <div className="article-content mt-8" dangerouslySetInnerHTML={{ __html: article.content }} />
-
-            <AdPlacement type="in-article" />
 
             <div className="mt-8 border-t border-border pt-6">
               <ShareButtons url={url} title={article.title} />
