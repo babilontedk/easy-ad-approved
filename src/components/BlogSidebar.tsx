@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { articles, categories } from "@/data/articles";
-import AdPlacement from "./AdPlacement";
 
 interface BlogSidebarProps {
   currentCategory?: string;
