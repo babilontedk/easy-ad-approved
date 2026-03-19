@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.tsx";
 import TermsPage from "./pages/TermsPage.tsx";
+import CookiePolicyPage from "./pages/CookiePolicyPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
