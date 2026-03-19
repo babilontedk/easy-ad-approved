@@ -49,7 +49,6 @@ const BlogSidebar = ({ currentCategory }: BlogSidebarProps) => {
         </ul>
       </div>
 
-      <AdPlacement type="sidebar" />
     </aside>
   );
 };

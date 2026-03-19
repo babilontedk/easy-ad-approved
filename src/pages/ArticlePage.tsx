@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import BlogSidebar from "@/components/BlogSidebar";
-import AdPlacement from "@/components/AdPlacement";
 import ShareButtons from "@/components/ShareButtons";
 import ArticleCard from "@/components/ArticleCard";
 import { getArticleBySlug, getRelatedArticles } from "@/data/articles";
