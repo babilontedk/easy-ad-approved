@@ -48,11 +48,7 @@ const ArticlePage = () => {
 
             <ShareButtons url={url} title={article.title} />
 
-            <AdPlacement type="in-article" />
-
             <div className="article-content mt-8" dangerouslySetInnerHTML={{ __html: article.content }} />
-
-            <AdPlacement type="in-article" />
 
             <div className="mt-8 border-t border-border pt-6">
               <ShareButtons url={url} title={article.title} />
